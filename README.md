@@ -35,6 +35,7 @@ I worked on the Solidity contracts that hold the data and rules, and the Next.js
 - [#115](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/115), [#165](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/165), [#152](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/152): privacy policy, a Terms of Use modal with a required checkbox, and SEO.
 - [#147](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/147), [#149](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/149): custom token types, and attestations with no expiry date.
 - [#144](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/144), [#145](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/145): removed misleading claims, badges and ranks.
+- [#159](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/159): notification bell using contract events show attestations, revocation, flags and donation changes.
 
 ### Tests
 
@@ -52,8 +53,6 @@ Every contract change came with Foundry tests in the same PR:
 ## Final status
 
 DIT now has a modular contract system with typed IDs, editable profiles, attestations, flags and an optional donation, and a live app that enables every flow: create an identity, claim a username, build a profile, mint tokens, attest, revoke, flag, transfer and burn. The contracts were deployed to Sepolia six times, all listed in [Deployment.md](https://github.com/StabilityNexus/IdentityTokens-EVM-Contracts/blob/main/Deployment.md).
-
-Still open: the notification bell ([FE #159](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/pull/159)) is in review, and the donation and security fixes go live with the next Sepolia deployment (v0.0.7).
 
 **All my work:** [merged PRs](https://github.com/pulls?q=is%3Apr+author%3Akhushal1512+org%3AStabilityNexus+is%3Amerged+created%3A2026-05-01..2026-10-31) (45) and [issues](https://github.com/issues?q=is%3Aissue+author%3Akhushal1512+org%3AStabilityNexus+created%3A2026-05-01..2026-10-31) (38). I also co-maintain both repos ([MAINTAINERS.md](https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend/blob/main/MAINTAINERS.md)).
 
